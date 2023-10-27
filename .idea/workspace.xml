@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b6cea359-6cf8-4b77-8fd7-daa3aa090ed0" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/copyright/IE_open_source.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build2/libs/testrail-gradle-plugin-0.0.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build2/test-results/test/TEST-org.ie.testrail.example.external.junit5.ShoppingCartTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build2/test-results/test/TEST-org.ie.testrail.example.external.junit5.UserManagementTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build2/test-results/test/binary/output.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build2/test-results/test/binary/output.bin.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build2/test-results/test/binary/results.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build2/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build2/tmp/compileTestJava/previous-compilation-data.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build2/tmp/jar/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build2/tmp/publishMavenJavaPublicationToMavenLocal/module-maven-metadata.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build2/tmp/publishPluginMavenPublicationToMavenLocal/module-maven-metadata.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build2/tmp/publishTestRailPluginPluginMarkerMavenPublicationToMavenLocal/module-maven-metadata.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build2/tmp/test/work/gradle10339228320037235913projectDir/userHome/caches/journal-1/file-access.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build2/tmp/test/work/gradle1209910441035304145projectDir/userHome/caches/journal-1/file-access.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build2/tmp/test/work/gradle15301706338657883926projectDir/userHome/caches/journal-1/file-access.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build2/tmp/test/work/gradle16137689534129465434projectDir/userHome/caches/journal-1/file-access.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/img/checkbox.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qodana.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ie/testrail/TestRailExtension.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ie/testrail/TestRailPlugin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ie/testrail/annotations/AnnotationParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ie/testrail/annotations/AnnotationValue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ie/testrail/annotations/TestRailAutomationID.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ie/testrail/annotations/TestRailCaseID.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ie/testrail/annotations/TestRailSectionID.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ie/testrail/annotations/TestRailSuiteID.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ie/testrail/annotations/helpers/ReflectionHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ie/testrail/api/TestRailAPI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ie/testrail/api/exception/ApiResponseException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ie/testrail/api/exception/ApiRuntimeException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ie/testrail/api/http/HttpClientAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ie/testrail/api/http/HttpMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ie/testrail/api/request/Paths.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ie/testrail/api/request/RequestHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ie/testrail/api/request/RequestStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ie/testrail/api/request/RequestStrategyImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ie/testrail/api/request/helpers/RequestPayloadHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ie/testrail/api/request/paginator/Paginator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ie/testrail/api/request/paginator/PaginatorImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ie/testrail/api/response/ApiResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ie/testrail/model/TestCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ie/testrail/model/TestFailure.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ie/testrail/model/TestSuite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ie/testrail/report/parser/ReportFileParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ie/testrail/report/parser/xml/XmlParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ie/testrail/report/parser/xml/XmlParserImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ie/testrail/report/parser/xml/XmlValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ie/testrail/report/processor/ReportFileProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ie/testrail/report/processor/TestCaseProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ie/testrail/report/processor/XmlIReportFileProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ie/testrail/service/OperationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ie/testrail/service/OperationServiceFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ie/testrail/service/TestCaseOperationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ie/testrail/service/TestRunOperationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ie/testrail/service/helpers/UrlManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ie/testrail/tasks/BaseTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ie/testrail/tasks/ExportAutoTestsTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ie/testrail/tasks/ExportTestRunResultsTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ie/testrail/tasks/TaskManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ie/testrail/tasks/logger/GradleTaskLoggerAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ie/testrail/tasks/logger/TaskLogger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/gradle-plugins/org.ie.testrail-gradle-plugin.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/ie/testrail/api/TestRailAPITest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/ie/testrail/integration/TestRailTasksTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="module-info" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FormatOnSaveOptions">
+    <option name="myRunOnSave" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jdom/jdom2/2.0.6.1/2493435437502ccc285afeb63b4f3d7a3a942afd/jdom2-2.0.6.1-sources.jar!/org/jdom2/Element.java" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="OptimizeOnSaveOptions">
+    <option name="myRunOnSave" value="true" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2UbjJielhmRFr4l9pcNqY0scD0M" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;code.cleanup.on.save&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;adopt-11&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/igoremcev/IdeaProjects/gradle-testrail-plugin/build2&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;rearrange.code.on.save&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;File.Encoding&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;JAVA&quot;
+    ]
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/build2" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/docs/img" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/docs/img" />
+      <recent name="$PROJECT_DIR$/build2/test-results/test" />
+      <recent name="$PROJECT_DIR$/build2" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.ie.testrail.example.external.junit5" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Gradle.TestRailTasksTest">
+    <configuration name="TestRailAPITest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;org.ie.testrail.api.TestRailAPITest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="TestRailTasksTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;org.ie.testrail.integration.TestRailTasksTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="TestRailTasksTest.shouldExportTestRunSuccessfully" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;org.ie.testrail.integration.TestRailTasksTest.shouldExportTestRunSuccessfully&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="TestRailTasksTest.shouldExportTestsSuccessfully" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;org.ie.testrail.integration.TestRailTasksTest.shouldExportTestsSuccessfully&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="Tests in 'org.ie.testrail.example.external.junit5'" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;org.ie.testrail.example.external.junit5.*&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.TestRailTasksTest" />
+        <item itemvalue="Gradle.TestRailAPITest" />
+        <item itemvalue="Gradle.TestRailTasksTest.shouldExportTestRunSuccessfully" />
+        <item itemvalue="Gradle.TestRailTasksTest.shouldExportTestsSuccessfully" />
+        <item itemvalue="Gradle.Tests in 'org.ie.testrail.example.external.junit5'" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b6cea359-6cf8-4b77-8fd7-daa3aa090ed0" name="Changes" comment="" />
+      <created>1693215108065</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1693215108065</updated>
+      <workItem from="1694459149290" duration="37248000" />
+      <workItem from="1694595612252" duration="14279000" />
+      <workItem from="1694682553516" duration="46582000" />
+      <workItem from="1695066015643" duration="16906000" />
+      <workItem from="1695206229442" duration="2327000" />
+      <workItem from="1695209811644" duration="15315000" />
+      <workItem from="1695401409455" duration="10873000" />
+      <workItem from="1695412694387" duration="524000" />
+      <workItem from="1695636861728" duration="1069000" />
+      <workItem from="1695718948972" duration="2639000" />
+      <workItem from="1695725062745" duration="937000" />
+      <workItem from="1695895283620" duration="1132000" />
+      <workItem from="1696064160714" duration="37169000" />
+      <workItem from="1696590329011" duration="36844000" />
+      <workItem from="1696846732372" duration="6041000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/settings.gradle</url>
+          <line>8</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/org/ie/testrail/report/reader/XmlIReportFileProcessorTest.java</url>
+          <line>77</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/ie/testrail/report/processor/XmlIReportFileProcessor.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/ie/testrail/report/processor/XmlIReportFileProcessor.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/ie/testrail/tasks/ExportAutoTestsTask.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="GradleRunConfiguration">
+        <watch expression="((HttpResponseImpl)response).body" language="JAVA" custom="jdk.internal.net.http.HttpResponseImpl" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

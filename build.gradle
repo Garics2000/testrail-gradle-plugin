@@ -1,0 +1,50 @@
+plugins {
+    id "java-gradle-plugin"
+    id "maven-publish"
+    id "groovy"
+}
+
+group = "org.ie"
+version = "${testRailPluginVersion}"
+
+repositories {
+    mavenLocal()
+    mavenCentral()
+}
+
+dependencies {
+    implementation "org.projectlombok:lombok:1.18.22"
+    implementation "org.jdom:jdom2:2.0.6.1"
+    implementation "org.jetbrains:annotations:24.0.0"
+    annotationProcessor "org.projectlombok:lombok:1.18.22"
+    testImplementation "org.mockito:mockito-core:5.4.0"
+    testImplementation "org.mockito:mockito-junit-jupiter:5.6.0"
+    testImplementation("org.gradle:gradle-tooling-api:7.3-20210825160000+0000")
+    testImplementation "org.junit.jupiter:junit-jupiter-api:5.8.1"
+    testRuntimeOnly "org.junit.jupiter:junit-jupiter-engine:5.8.1"
+    implementation "org.json:json:20230618"
+    testImplementation gradleTestKit()
+}
+
+gradlePlugin {
+    plugins {
+        testRailPlugin {
+            id = "org.ie.testrail-gradle-plugin"
+            implementationClass = "org.ie.testrail.TestRailPlugin"
+        }
+    }
+}
+
+publishing {
+    repositories {
+        mavenLocal()
+    }
+}
+
+tasks.withType(Copy) {
+    duplicatesStrategy = DuplicatesStrategy.INCLUDE
+}
+
+test {
+    useJUnitPlatform()
+}
