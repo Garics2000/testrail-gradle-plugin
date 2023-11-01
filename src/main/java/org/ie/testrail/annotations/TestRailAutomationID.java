@@ -11,9 +11,9 @@ import java.lang.annotation.Target;
  * This annotation should be placed on test methods to map them to
  * corresponding TestRail test cases through an automation ID.
  * It's required for export auto tests task.
- * <p/>
+ * </p>
  * <p>
- * <b>Notice:<b/> This annotation is not required for exporting test run results.
+ * <b>Notice:</b> This annotation is not required for exporting test run results.
  * </p>
  *
  * <h2>Usage Example</h2>

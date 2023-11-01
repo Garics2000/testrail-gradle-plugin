@@ -1,7 +1,8 @@
 plugins {
-    id "java-gradle-plugin"
-    id "maven-publish"
     id "groovy"
+    //id "java-gradle-plugin"
+    id "maven-publish"
+    id "com.gradle.plugin-publish" version "1.2.1"
 }
 
 group = "org.ie"
@@ -27,9 +28,14 @@ dependencies {
 }
 
 gradlePlugin {
+    website = "https://github.com/Garics2000/testrail-gradle-plugin"
+    vcsUrl = "https://github.com/Garics2000/testrail-gradle-plugin.git"
     plugins {
         testRailPlugin {
             id = "org.ie.testrail-gradle-plugin"
+            displayName = 'Gradle TestRail Plugin'
+            description = "A plugin that exports automated tests and test run results to TestRail."
+            tags.addAll('testing', 'testReport', 'testResults')
             implementationClass = "org.ie.testrail.TestRailPlugin"
         }
     }

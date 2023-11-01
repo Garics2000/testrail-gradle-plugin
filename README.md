@@ -1,6 +1,6 @@
 # Gradle TestRail Plugin
 
-This plugin exports automated tests and test run results to TestRail via Gradle tasks.
+.
 
 ## Advantage Features
 
@@ -10,6 +10,16 @@ This plugin exports automated tests and test run results to TestRail via Gradle 
 <img src="docs/img/checkbox.jpeg" width="14"> Doesn't require TestRail CLI Tool for work.</br>  
 
 ## Plugin Installation
+
+### From Maven Central (coming soon)
+
+For version hosted on Maven Central (coming soon)
+
+```groovy
+plugins {
+    id "org.ie:testrail-gradle-plugin" version "${testRailPluginVersion}"
+}
+```
 
 ### From Local Repository
 
@@ -32,23 +42,6 @@ dependencies {
 
 
 apply plugin: "org.ie.testrail-gradle-plugin"
-```
-
-### From Maven Central
-
-For version hosted on Maven Central (coming soon)
-
-```groovy
-buildscript {
-    repositories {
-        mavenCentral()
-    }
-    dependencies {
-        classpath 'com.ie:gradle-testrail-plugin:0.0.1'
-    }
-}
-
-apply plugin: 'com.ie.testrail-gradle-plugin'
 ```
 
 ## Plugin Configuration
