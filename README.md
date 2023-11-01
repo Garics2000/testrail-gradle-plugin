@@ -19,6 +19,10 @@ For version hosted on Maven Central (coming soon)
 plugins {
     id "org.ie:testrail-gradle-plugin" version "${testRailPluginVersion}"
 }
+
+dependencies {
+    testImplementation "org.ie:testrail-gradle-plugin:${testRailPluginVersion}"
+}
 ```
 
 ### From Local Repository
