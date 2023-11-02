@@ -17,11 +17,11 @@ For version hosted on Maven Central (coming soon)
 
 ```groovy
 plugins {
-    id "org.ie:testrail-gradle-plugin" version "${testRailPluginVersion}"
+    id "io.github.garics2000:testrail-gradle-plugin" version "${testRailPluginVersion}"
 }
 
 dependencies {
-    testImplementation "org.ie:testrail-gradle-plugin:${testRailPluginVersion}"
+    testImplementation "io.github.garics2000:testrail-gradle-plugin:${testRailPluginVersion}"
 }
 ```
 
@@ -36,16 +36,16 @@ buildscript {
         mavenLocal()
     }
     dependencies {
-        classpath "org.ie:testrail-gradle-plugin:${testRailPluginVersion}"
+        classpath "io.github.garics2000:testrail-gradle-plugin:${testRailPluginVersion}"
     }
 }
 
 dependencies {
-    testImplementation "org.ie:testrail-gradle-plugin:${testRailPluginVersion}"
+    testImplementation "io.github.garics2000:testrail-gradle-plugin:${testRailPluginVersion}"
 }
 
 
-apply plugin: "org.ie.testrail-gradle-plugin"
+apply plugin: "io.github.garics2000.testrail-gradle-plugin"
 ```
 
 ## Plugin Configuration

@@ -5,7 +5,7 @@ plugins {
     id "com.gradle.plugin-publish" version "1.2.1"
 }
 
-group = "org.ie"
+group = "io.github.garics2000"
 version = "${testRailPluginVersion}"
 
 repositories {
@@ -32,11 +32,11 @@ gradlePlugin {
     vcsUrl = "https://github.com/Garics2000/testrail-gradle-plugin.git"
     plugins {
         testRailPlugin {
-            id = "org.ie.testrail-gradle-plugin"
+            id = "io.github.garics2000.testrail-gradle-plugin"
             displayName = 'Gradle TestRail Plugin'
             description = "A plugin that exports automated tests and test run results to TestRail."
             tags.addAll('testing', 'testReport', 'testResults')
-            implementationClass = "org.ie.testrail.TestRailPlugin"
+            implementationClass = "io.github.garics2000.testrail.TestRailPlugin"
         }
     }
 }
