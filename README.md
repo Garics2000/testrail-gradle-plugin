@@ -11,13 +11,17 @@
 
 ## Plugin Installation
 
-### From Maven Central (coming soon)
+### From Gradle Plugins Repo
 
-For version hosted on Maven Central (coming soon)
+[Current version info](https://plugins.gradle.org/plugin/io.github.garics2000.testrail-gradle-plugin)
 
 ```groovy
 plugins {
-    id "io.github.garics2000:testrail-gradle-plugin" version "${testRailPluginVersion}"
+    id "io.github.garics2000.testrail-gradle-plugin" version "${testRailPluginVersion}"
+}
+
+repositories {
+    gradlePluginPortal()
 }
 
 dependencies {
